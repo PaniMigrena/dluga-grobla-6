@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DG6 — Długa Grobla 6 Apartments Old Town">
+<rect width="64" height="64" fill="#601a3e"/>
+<circle cx="32" cy="32" r="26.6" fill="none" stroke="#f3d9c9" stroke-width="1.03"/>
+<text x="32" y="25.6" text-anchor="middle" dominant-baseline="central" font-family="'Cormorant Garamond','Didot',Georgia,'Times New Roman',serif" font-weight="700" font-size="21.5" letter-spacing="0.3" fill="#f3d9c9">DG</text>
+<line x1="23" y1="36.2" x2="41" y2="36.2" stroke="#f3d9c9" stroke-width="0.45"/>
+<text x="32" y="47" text-anchor="middle" dominant-baseline="central" font-family="'Cormorant Garamond','Didot',Georgia,'Times New Roman',serif" font-weight="700" font-size="14" fill="#f3d9c9">6</text>
+</svg>

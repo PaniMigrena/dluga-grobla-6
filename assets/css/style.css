@@ -657,6 +657,32 @@ p { margin: 0; line-height: 1.7; }
 }
 .contact-card h3 { color: var(--paper); font-size: 1.15rem; margin-bottom: 6px; }
 .contact-card p { color: #d9c3cf; font-size: 0.95rem; }
+.contact-card p + p { margin-top: 2px; }
+
+/* ==========================================================================
+   LEGAL / PRIVACY POLICY PAGE
+   ========================================================================== */
+.legal {
+  padding-top: clamp(150px, 20vw, 190px);
+  padding-bottom: clamp(60px, 9vw, 110px);
+  background: var(--paper);
+}
+.legal-inner { max-width: 760px; margin-inline: auto; }
+.legal-updated { color: #8a7581; font-size: 0.85rem; margin-top: 10px; }
+.legal-lead { color: #5a4652; font-size: 1.02rem; margin-top: 20px; margin-bottom: 10px; }
+.legal-body h2 {
+  font-size: 1.35rem;
+  margin-top: 42px;
+  margin-bottom: 14px;
+  color: var(--plum-darker);
+}
+.legal-body h2:first-child { margin-top: 0; }
+.legal-body p { color: #5a4652; margin-bottom: 16px; }
+.legal-body ul { list-style: disc; padding-left: 22px; margin-bottom: 16px; }
+.legal-body ul li { color: #5a4652; margin-bottom: 8px; }
+.legal-body a { color: var(--plum); text-decoration: underline; text-underline-offset: 2px; }
+.legal-body a:hover { color: var(--plum-light); }
+.legal-block { color: #5a4652; margin-bottom: 16px; }
 
 /* ==========================================================================
    FOOTER
@@ -669,7 +695,11 @@ p { margin: 0; line-height: 1.7; }
 .footer-nav a:hover { color: var(--ivory); }
 .footer-contact { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 0.9rem; }
 .footer-contact a:hover { color: var(--ivory); }
+.footer-address { font-size: 0.85rem; color: #cdb2bd; margin-top: 4px; }
+.footer-legal { font-size: 0.78rem; color: #8a7581; }
 .footer-copy { font-size: 0.78rem; color: #8a7581; margin-top: 20px; }
+.footer-copy a { color: #8a7581; text-decoration: underline; text-underline-offset: 2px; }
+.footer-copy a:hover { color: var(--ivory); }
 
 /* ==========================================================================
    LIGHTBOX
