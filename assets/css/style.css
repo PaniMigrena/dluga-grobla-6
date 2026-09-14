@@ -697,6 +697,7 @@ p { margin: 0; line-height: 1.7; }
 .footer-contact a:hover { color: var(--ivory); }
 .footer-address { font-size: 0.85rem; color: #cdb2bd; margin-top: 4px; }
 .footer-legal { font-size: 0.78rem; color: #8a7581; }
+.footer-legal + .footer-legal { margin-top: -12px; }
 .footer-copy { font-size: 0.78rem; color: #8a7581; margin-top: 20px; }
 .footer-copy a { color: #8a7581; text-decoration: underline; text-underline-offset: 2px; }
 .footer-copy a:hover { color: var(--ivory); }
